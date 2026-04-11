@@ -1,24 +1,60 @@
+/*
+
+ATTRIBUTIONS
+
+Title: Inter
+Author: Rasmus Andersson
+Source: https://fonts.google.com/specimen/Inter
+Licence: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+Title: Archivo Black
+Author: Omnibus-Type
+Source: https://fonts.google.com/specimen/Archivo+Black?query=Archivo&preview.script=Latn
+Licence: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+*/
+
 * {
     box-sizing: border-box;
 }
 
 body {
     max-width: 100%;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
 .header {
-    height: 10vh;
+    height: 10dvh;
     display: flex;
-    outline: 1px solid red;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.header .header-logo {
+    font-family: "Archivo Black";
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    font-family: inter, sans-serif;
+}
+
+.header-links a{
+    font-family: Inter;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+}
+
 
 .side-bar {
     outline: 1px solid red;
     width: 10vw;
-    height: 100vh;
+    height: 100dvh;
     margin-right: 10px;
 }
 
@@ -32,6 +68,7 @@ body {
 }
 
 .container {
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -41,5 +78,10 @@ body {
 
 .top-recipe {
     flex: 1 1 auto;
+    outline: 1px solid red;
+}
+
+.footer {
+    height: 10dvh;
     outline: 1px solid red;
 }
