@@ -35,7 +35,7 @@ body {
 }
 
 .header .header-logo {
-    font-family: "Archivo Black";
+    font-family: "Archivo Black", sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: 30px;
@@ -43,7 +43,7 @@ body {
 }
 
 .header-links a{
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     color: black;
     font-size: 18px;
     padding: 10px;
@@ -59,9 +59,35 @@ body {
 }
 
 .hero {
-    flex: 1 1 auto;
-    outline: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
+
+.img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.hero-middle {
+    display: flex;
+    gap: 50px;
+    font-family: Inter, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-paragraph {
+    width: 50%;
+}
+
+
 
 .content {
     display: flex;
@@ -71,13 +97,11 @@ body {
     min-height: 100dvh;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1 1 auto;
     gap: 10px;
 }
 
 .top-recipe {
-    flex: 1 1 auto;
+    flex: 1;
     outline: 1px solid red;
 }
 
