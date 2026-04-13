@@ -66,6 +66,11 @@ body {
     align-items: center;
 }
 
+.hero h1 {
+    font-size: 35px;
+    font-family: Inter, sans-serif;
+}
+
 .img {
     height: 200px;
     width: 400px;
@@ -84,10 +89,12 @@ body {
 }
 
 .hero-paragraph {
-    width: 50%;
+    font-weight: 500;
 }
 
-
+.hero-group {
+    width: 50%;
+}
 
 .content {
     display: flex;
