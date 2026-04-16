@@ -108,8 +108,30 @@ body {
 }
 
 .top-recipe {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     outline: 1px solid red;
+}
+
+.top-recipe .first-second-third {
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    outline: 1px solid red;
+}
+
+.winners-text {
+    text-align: center;
+    background-color: #fcf5f9;
+}
+
+.First, .Second, .Third {
+    display: flex;
+    flex: 1;
+    background-color: #ffe48c;
+    justify-content: center;
+    padding: 10px;
 }
 
 .footer {
