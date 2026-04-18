@@ -18,6 +18,10 @@ Licence: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
     box-sizing: border-box;
 }
 
+p {
+    font-family: Inter, sans-serif;
+}
+
 body {
     max-width: 100%;
     min-height: 100dvh;
@@ -129,9 +133,24 @@ body {
 .First, .Second, .Third {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 20px;
     background-color: #ffe48c;
     justify-content: center;
-    padding: 10px;
+}
+
+.podium-image {
+    object-fit: cover;
+    border: 1px solid transparent;
+    border-radius: 10px;    
+    margin: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.podium-text {
+    margin-right: 10px;
 }
 
 .footer {
