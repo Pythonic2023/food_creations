@@ -16,6 +16,8 @@ Licence: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 
 * {
     box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
 
 p {
@@ -36,6 +38,7 @@ body {
     padding: 10px;
     align-items: center;
     justify-content: space-between;
+    background-color: #c2d5f4;
 }
 
 .header .header-logo {
@@ -60,6 +63,7 @@ body {
     width: 10vw;
     height: 100dvh;
     margin-right: 10px;
+    background-color: #c2d5f4;
 }
 
 .hero {
@@ -68,6 +72,8 @@ body {
     flex: 1;
     justify-content: center;
     align-items: center;
+    background-color: #c2d5f4;
+    padding: 10px;
 }
 
 .hero h1 {
@@ -115,19 +121,19 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    outline: 1px solid red;
 }
 
 .top-recipe .first-second-third {
     display: flex;
     flex: 1;
     gap: 5px;
-    outline: 1px solid red;
+    background-color: #c2d5f4;
 }
 
 .winners-text {
     text-align: center;
-    background-color: #fcf5f9;
+    background-color: #c2d5f4;
+    margin-bottom: 10px;
 }
 
 .First, .Second, .Third {
@@ -136,8 +142,9 @@ body {
     flex-wrap: wrap;
     font-weight: 700;
     font-size: 20px;
-    background-color: #ffe48c;
+    background-color: #fffde6;
     justify-content: center;
+    margin: 10px;
 }
 
 .podium-image {
@@ -154,6 +161,9 @@ body {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 10dvh;
-    outline: 1px solid red;
+    background-color: #c2d5f4;
 }
