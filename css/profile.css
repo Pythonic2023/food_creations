@@ -1,0 +1,120 @@
+/*
+
+ATTRIBUTIONS
+
+Title: Inter
+Author: Rasmus Andersson
+Source: https://fonts.google.com/specimen/Inter
+Licence: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+Title: Archivo Black
+Author: Omnibus-Type
+Source: https://fonts.google.com/specimen/Archivo+Black?query=Archivo&preview.script=Latn
+Licence: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+*/
+
+* {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+p {
+    font-family: Inter, sans-serif;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    border: 3px solid black;
+    background-color: #c2d5f4;
+    height: 50dvh;
+    width: 50vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-welcome {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+
+.profile-information {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.email, .phone-number, 
+.username, .birth-date, .about {
+    text-align: center;
+}
+
+.profile-information p {
+    flex: 1 1 50%;
+}
+
+.header {
+    height: 10dvh;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #c2d5f4;
+}
+
+.header .header-logo {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    font-family: inter, sans-serif;
+}
+
+.header-links a{
+    font-family: Inter, sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.profile-container {
+    display: flex;
+    flex-grow: 1;
+    outline: 1px solid red;
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10dvh;
+    background-color: #c2d5f4;
+}
